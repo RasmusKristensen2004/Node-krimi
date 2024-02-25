@@ -1,3 +1,10 @@
+#læs kapitel 2, The Murder, i efterforskning.pdf
+
+Hvem tror du morderen er?
+
+
+
+
 # Node-krimi
 skriv klassen: class PersonNode
 

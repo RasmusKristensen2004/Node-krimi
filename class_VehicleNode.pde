@@ -1,7 +1,7 @@
 public class VehicleNode {
     private String plateNumber;
     private String owner;
-    private List<PersonNode> connectedPersons;
+    private ArrayList<PersonNode> connectedPersons;
     float x;
     float y;
 
@@ -21,7 +21,7 @@ public class VehicleNode {
         return owner;
     }
 
-    public List<PersonNode> getConnectedPersons() {
+    public ArrayList<PersonNode> getConnectedPersons() {
         return connectedPersons;
     }
 

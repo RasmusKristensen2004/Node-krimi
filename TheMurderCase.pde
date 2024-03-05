@@ -29,15 +29,16 @@ private void createNodes() {
   PersonNode victim1 = new PersonNode("Charles Anderson/John Doe", "Offer", random(350, 450), random(350, 450));
 
   PersonNode suspect1 = new PersonNode("Alice Smith", "Mistænkt", random(100, 100), random(50, 750));
+   PersonNode suspect2 = new PersonNode("Bob Johnson", "Mistænkt", random(100, 100), random(50, 750));
   
   //Opret vidner
-  PersonNode witness1 = new PersonNode("Emily Brown", "Vidne", random(700, 750), random(50, 750));
-  
+  PersonNode witness1 = new PersonNode("Emily Brown", "Vidne", random(700, 750), random(50, 750)); 
 
   // Tilføj personer til sagen
   criminalCase.addPerson(victim1);
   
   criminalCase.addPerson(suspect1);
+  criminalCase.addPerson(suspect2);
   
   criminalCase.addPerson(witness1);
   
